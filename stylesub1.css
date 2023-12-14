@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: black;}   
+a:visited{color: black;}
+a:hover{
+    color: #a7a7a7;
+    transition: 0.4s;
+    scale: 120%;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+
+}
+a:active{color: black;}
+
+header{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+header ul{
+    width: 920px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    font-family: 'Noto Sans KR';
+}
+header ul li a{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+.headerline{
+    display: block;
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-17000%, -2260%); 
+}
+.headerline1{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-8000%, -2260%); 
+}
+.headerline2{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(8000%, -2260%); 
+}
+.headerline3{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(16000%, -2260%); 
+}
+.subconttit{
+    position: relative; 
+    width: 100%;
+    height: 691px;
+    background-image: url(img/subindex.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub01txt{
+    position: absolute;
+    font-family: 'SCoreDream';
+    font-weight: 900;
+    font-size: 136px;
+    text-align: right;
+    line-height: 149px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #9C9C9C;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-48%, -113%);
+    -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  letter-spacing: 20px;
+}
+.sub01txt1{
+    position: absolute;
+    width: 700px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Noto Sans KR';
+    line-height: 60px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-7%, -80%); 
+}
+.line1{
+    display: block;
+    position: absolute;
+    width: 507px;
+    color: white;
+    border: solid -1px white ;
+    border-bottom: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-10%, 4000%); 
+}
+.sub01txt2{
+    position: absolute;
+    width: 700px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 23px;
+    font-family: 'Nanum Myeongjo';
+    font-weight: 400;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-20%, 130%); 
+}
+.line2{
+    position: absolute;
+    width: 507px;
+    color: white;
+    border: solid -1px white;
+    border-bottom: 0px;
+    display: block;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-10%, 12000%);
+}
+.dot{
+    position: absolute;
+    color: white;
+    line-height: 35px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, 75%);
+}
+.sub01txt3{
+    position: absolute;
+    width: 600px;
+    font-size: 15px;
+    line-height: 33px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    color: white;
+    display: flex;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(10%, 80%); 
+}
+.subcontbg{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section1.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub01txt4{
+    position: absolute;
+    width: 900px;
+    font-size: 65px;
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -280%); 
+}
+.sub01txt5{
+    position: absolute;
+    width: 250px;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-210%, -69%); 
+}
+.sub01txt6{
+    position: absolute;
+    width: 250px;
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(100%, -53%); 
+}
+.subcontbg1{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section2.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub01txt7{
+    position: absolute;
+    width: 410px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(25%, -81%); 
+}
+.subcontbg2{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section3.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub01txt8{
+    position: absolute;
+    width: 900px;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-78%, -150%); 
+}
+.sub01txt9{
+    position: absolute;
+    width: 369px;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-120%, -5%); 
+}
+.subcontbg3{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section4.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub01txt10{
+    position: absolute;
+    width: 900px;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-18%, -120%); 
+}
+.sub01txt11{
+    position: absolute;
+    width: 460px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(13%, -10%); 
+}
+.sub01txt12{
+    position: absolute;
+    width: 460px;
+    color: #333333;
+    font-size: 12   px;
+    font-family: 'Noto Sans KR';
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-80%, 1000%); 
+}
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 102px; 
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4B4B4;
+    font-size: 12px;
+    max-width: 1920px;
+}
+.topbt{
+    position: fixed;
+    background-image: url(img/그룹\ 19.png);
+    width: 62px;
+    height: 62px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(700%, 460%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}

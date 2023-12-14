@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-snap-type: y mandatory;
+}
+a:link{color: black;}
+a:visited{color: black;}
+a:hover{
+    color: #a7a7a7;
+    transition: 0.4s;
+    scale: 120%;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+a:active{color: black;
+}
+
+header{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+header ul{
+    width: 920px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    font-family: 'Noto Sans KR';
+}
+header ul li a{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+}
+.headerline{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-17000%, -2260%); 
+}
+.headerline1{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-8000%, -2260%); 
+}
+.headerline2{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(8000%, -2260%); 
+}
+.headerline3{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(16000%, -2260%); 
+}
+.subconttit12{
+    position: relative; 
+    width: 100%;
+    height: 691px;
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.sub04img1{
+    position: absolute;
+    width: 600px;
+    background-image: url(img/1_uLA-Wck_CroMrQhRuwgXUA.png);
+    height: 600px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub04txt1{
+    position: absolute;
+    font-size: 104px;
+    font-family: 'Noto Sans Kr';
+    font-weight: 900;
+    line-height: 122px;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-188%, -130%);
+}
+.sub04txt2{
+    position: absolute;
+    font-size: 104px;
+    font-family: 'Noto Sans Kr';
+    font-weight: 900;
+    line-height: 122px;
+    text-align: right;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(88%, 20%);
+}
+.sub04txt3{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -1500%);
+}
+.sub04txt4{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(70%, -500%);
+    text-align: center;
+}
+.sub04txt5{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(50%, -100%);
+    text-align: center;
+}
+.sub04txt6{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-170%, 100%);
+    text-align: center;
+}
+.sub04txt7{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, 700%);
+    text-align: center;
+}
+.sub04txt8{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Nanum MyeongJo';
+    color: white;
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-140%, 700%);
+    text-align: center;
+}
+.subconttit13{
+    position: relative; 
+    width: 100%;
+    height: 1234px;
+    background-color: #fcfcfc;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.sub04img2{
+    position: absolute;
+    width: 295px;
+    background-image: url(img/jnt.png);
+    height: 196px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-170%, -250%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub04txt9{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 500;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -730%);
+    text-align: center;
+}
+.sub04txt10{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 300;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -580%);
+    text-align: center;
+}
+.sub04img3{
+    position: absolute;
+    width: 438px;
+    background-image: url(img/jnt2.png);
+    height: 281px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(10%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub04txt11{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 500;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-100%, -110%);
+    text-align: center;
+}
+.sub04txt12{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 300;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-101%, 120%);
+    text-align: center;
+}
+.sub04img4{
+    position: absolute;
+    width: 181px;
+    background-image: url(img/jnt3.png);
+    height: 227px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-210%, 140%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub04txt13{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 500;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-30%, 450%);
+    text-align: center;
+}
+.sub04txt14{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 300;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-30%, 750%);
+    text-align: center;
+}
+.topbt{
+    position: fixed;
+    background-image: url(img/그룹\ 19.png);
+    width: 62px;
+    height: 62px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(700%, 460%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 102px; 
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4B4B4;
+    font-size: 12px;
+    max-width: 1920px;
+    margin: 0 auto;
+}

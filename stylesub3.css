@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-snap-type: y mandatory;
+}
+a:link{color: black;}
+a:visited{color: black;}
+a:hover{
+    color: #a7a7a7;
+    transition: 0.4s;
+    scale: 120%;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+a:active{color: black;
+}
+
+header{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+header ul{
+    width: 920px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    font-family: 'Noto Sans KR';
+}
+header ul li a{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+}
+.headerline{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-17000%, -2260%); 
+}
+.headerline1{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-8000%, -2260%); 
+}
+.headerline2{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(8000%, -2260%); 
+}
+.headerline3{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(16000%, -2260%); 
+}
+.subconttit2{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img1{
+    position: absolute;
+    width: 462px;
+    background-image: url(img/iMac\ g3.png);
+    height: 340px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-117%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt1{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -300%);
+}
+.sub03txt2{
+    position: absolute;
+    font-size: 18px;
+    width: 600px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-15%, -30%);
+}
+.subconttit3{
+    position: relative;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img2{
+    position: absolute;
+    width: 400px;
+    background-image: url(img/Apple-iBook-G3-366-MHz-SE-Specs.png);
+    height: 310px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(37%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt3{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -190%);
+}
+.sub03txt4{
+    position: absolute;
+    font-size: 18px;
+    width: 534px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-72%, -0%);
+}
+.subconttit4{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img3{
+    position: absolute;
+    width: 190px;
+    background-image: url(img/iPod.png);
+    height: 296px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-220%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt5{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -250%);
+}
+.sub03txt6{
+    position: absolute;
+    font-size: 18px;
+    width: 600px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-12%, -15%);
+}
+.subconttit5{
+    position: relative;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img4{
+    position: absolute;
+    width: 283px;
+    background-image: url(img/IMac_G4.png);
+    height: 361px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(77%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt7{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -300%);
+}
+.sub03txt8{
+    position: absolute;
+    font-size: 18px;
+    width: 517px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-72%, -20%);
+}
+.subconttit6{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img5{
+    position: absolute;
+    width: 342px;
+    background-image: url(img/p46cl6yz.png);
+    height: 342px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-140%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt9{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -300%);
+}
+.sub03txt10{
+    position: absolute;
+    font-size: 18px;
+    width: 620px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-15%, -25%);
+}
+.subconttit7{
+    position: relative;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img6{
+    position: absolute;
+    width: 559px;
+    background-image: url(img/Apple-iPod.png);
+    height: 315px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-0%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt11{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-90%, -270%);
+}
+.sub03txt12{
+    position: absolute;
+    font-size: 18px;
+    width: 485px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-95%, -20%);
+}
+.subconttit8{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img7{
+    position: absolute;
+    width: 580px;
+    background-image: url(img/iPhone.png);
+    height: 235px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-105%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt13{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-10%, -250%);
+}
+.sub03txt14{
+    position: absolute;
+    font-size: 18px;
+    width: 524px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-4%, -25%);
+}
+.subconttit9{
+    position: relative;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img8{
+    position: absolute;
+    width: 475px;
+    background-image: url(img/ipad.png);
+    height: 304px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(10%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt15{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-80%, -340%);
+}
+.sub03txt16{
+    position: absolute;
+    font-size: 18px;
+    width: 540px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-91%, -30%);
+}
+.subconttit10{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img9{
+    position: absolute;
+    width: 338px;
+    background-image: url(img/ios7.png);
+    height: 261px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-145%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt17{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -250%);
+}
+.sub03txt18{
+    position: absolute;
+    font-size: 18px;
+    width: 520px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-14%, -15%);
+}
+.subconttit11{
+    position: relative;
+    background-color: #fcfcfc;
+    width: 100%;
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.sub03img10{
+    position: absolute;
+    width: 180px;
+    background-image: url(img/applewatch.png);
+    height: 308px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(140%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub03txt19{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-40%, -230%);
+}
+.sub03txt20{
+    position: absolute;
+    font-size: 18px;
+    width: 540px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-65%, -10%);
+}
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 102px; 
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4B4B4;
+    font-size: 12px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.topbt{
+    position: fixed;
+    background-image: url(img/그룹\ 19.png);
+    width: 62px;
+    height: 62px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(700%, 460%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}

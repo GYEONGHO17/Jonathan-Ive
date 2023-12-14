@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a:link{color: black;}
+a:visited{color: black;}
+a:hover{
+    color: #a7a7a7;
+    transition: 0.4s;
+    scale: 120%;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+a:active{color: black;
+}
+
+header{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+header ul{
+    width: 920px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    font-family: 'Noto Sans KR';
+}
+header ul li a{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+}
+.headerline{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-17000%, -2260%); 
+}
+.headerline1{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-8000%, -2260%); 
+}
+.headerline2{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(8000%, -2260%); 
+}
+.headerline3{
+    border-left: 2px solid #707070;
+    height:19px;
+    position: absolute;
+    border-right: 0px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(16000%, -2260%); 
+}
+.subconttit1{
+    position: relative; 
+    width: 100%;
+    height: 691px;
+    background-image: url(img/subindex1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub02txt{
+    position: absolute;
+    font-size: 104px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-85%, -230%);
+}
+.sub02txt1{
+    position: absolute;
+    font-size: 104px;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    color: white;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(95%, 60%);
+}
+.subcontbg4{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section5.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub02txt2{
+    position: absolute;
+    width: 500px;
+    font-size: 20px;
+    color: #333333;
+    font-family: 'Nanum Myeongjo';
+    font-weight: 400;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(10%, -50%);
+    line-height: 45px;
+}
+.subcontbg5{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section6.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub02txt3{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -200%);
+}
+.sub02txt4{
+    position: absolute;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo';
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 60px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-100%, -40%);
+}
+.subcontbg6{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section7.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub02txt5{
+    width: 1030px;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'SCoreDream';
+    color: #333333;
+    font-weight: 300;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -130%);
+}
+.sub02txt6{
+    position: absolute;
+    width: 510px;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo';
+    font-weight: 400;
+    color: #333333;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(0%, -7%);
+    line-height: 47px;
+}
+.subcontbg7{
+    position: relative;
+    width: 100%;
+    background-image: url(img/section8.png);
+    height: 591px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub02txt7{
+    position: absolute;
+    width: 659px;
+    font-size: 19px;
+    font-family: 'ScoreDream';
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-75%, -360%);
+}
+.sub02txt8{
+    position: absolute;
+    width: 705px;
+    font-size: 27px;
+    font-family: 'Nanum MyeongJo';
+    font-weight: 400;
+    color: #ffffff;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-70%, -25%);
+    line-height: 60px;
+}
+footer{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 102px; 
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B4B4B4;
+    font-size: 12px;
+    max-width: 1920px;
+}
+.topbt{
+    position: fixed;
+    background-image: url(img/그룹\ 19.png);
+    width: 62px;
+    height: 62px;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(700%, 460%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
