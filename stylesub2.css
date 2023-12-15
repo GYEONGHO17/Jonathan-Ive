@@ -17,6 +17,7 @@ a:active{color: black;
 }
 
 header{
+    position: relative;
     height: 76px;
     display: flex;
     justify-content: center;
@@ -45,7 +46,7 @@ header ul li a{
     border-right: 0px;
     left: 50%; 
     top: 50%; 
-    transform: translate(-17000%, -2260%); 
+    transform: translate(-17000%, -60%); 
 }
 .headerline1{
     border-left: 2px solid #707070;
@@ -54,7 +55,7 @@ header ul li a{
     border-right: 0px;
     left: 50%; 
     top: 50%; 
-    transform: translate(-8000%, -2260%); 
+    transform: translate(-8000%, -60%); 
 }
 .headerline2{
     border-left: 2px solid #707070;
@@ -63,7 +64,7 @@ header ul li a{
     border-right: 0px;
     left: 50%; 
     top: 50%; 
-    transform: translate(8000%, -2260%); 
+    transform: translate(8000%, -60%); 
 }
 .headerline3{
     border-left: 2px solid #707070;
@@ -72,7 +73,7 @@ header ul li a{
     border-right: 0px;
     left: 50%; 
     top: 50%; 
-    transform: translate(16000%, -2260%); 
+    transform: translate(16000%, -60%); 
 }
 .subconttit1{
     position: relative; 
